@@ -33,6 +33,16 @@ The open source available for the project is through the website Kaggle, with th
 ### Running Analysis
 When I looked at running the code and attempting to simulate results, I first needed to make sure all necessary libraries were installed. This was necessary to be able to import the needed libraries in the code. Once this was done, I then needed to make sure that I had the correct files downloaded for the code to read, while also making sure that the filepath to these files was correctly indicated in each block of code. Parts of the code were correctly simulated, while others have been running for 15+ hours. Shown below is video that is going to be our end product and gives of visual of how the DeepSort algorithm works along with helmet mapping. 
 
+For this example, we were given the two following videos, one with a angle from the endzone, and the other with an angle from the sideline. Both starting videos are shown below.
+
+
+https://user-images.githubusercontent.com/74614080/133801835-4213a1dd-f89b-4d28-9a22-8f88bd6f6880.mp4
+
+
+
+https://user-images.githubusercontent.com/74614080/133801859-285549a9-6321-4768-bdd5-41d4de569a7a.mp4
+
+### After Application
 We can see even before the video is played, the helmet mapping being done on each player in the cameras view. We can see all the players in the green and yellow uniforms have an H and then a number above their heads, representing their jersey number. The H stands for home in this case, while the opposing team has a V for visitors above their helmets. As we play the video, we can see that video pauses for a second everytime an "exposure" is detected, and the associated players helmet box changes colors. This gives us not only a visual representation of overall exposures, but by having the video pause for a split second, it indicates to the viewer that an exposure has occured at this time period and to take notice. We can see how powerful this video can be for the different types of users listed above and will give meaningful information that can change lives forever.
 
 
