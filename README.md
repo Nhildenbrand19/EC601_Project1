@@ -26,10 +26,24 @@ The open source available for the project is through the website Kaggle, with th
 - [Helmet Mapping](https://www.kaggle.com/its7171/nfl-baseline-simple-helmet-mapping)
 - [Starting Guide](https://www.kaggle.com/robikscube/nfl-helmet-assignment-getting-started-guide)
 
+-----------------------
+
+## Outputs
+
+### Running Analysis
+When I looked at running the code and attempting to simulate results, I first needed to make sure all necessary libraries were installed. This was necessary to be able to import the needed libraries in the code. Once this was done, I then needed to make sure that I had the correct files downloaded for the code to read, while also making sure that the filepath to these files was correctly indicated in each block of code. Parts of the code were correctly simulated, while others have been running for 15+ hours. Shown below is video that is going to be our end product and gives of visual of how the DeepSort algorithm works along with helmet mapping. 
+
+We can see even before the video is played, the helmet mapping being done on each player in the cameras view. We can see all the players in the green and yellow uniforms have an H and then a number above their heads, representing their jersey number. The H stands for home in this case, while the opposing team has a V for visitors above their helmets. As we play the video, we can see that video pauses for a second everytime an "exposure" is detected, and the associated players helmet box changes colors. This gives us not only a visual representation of overall exposures, but by having the video pause for a split second, it indicates to the viewer that an exposure has occured at this time period and to take notice. We can see how powerful this video can be for the different types of users listed above and will give meaningful information that can change lives forever.
 
 
-### Image
+### Video Example
 
-![alt text](https://www.markdownguide.org/assets/images/tux.png)
+[Video Example of DeepSort](https://user-images.githubusercontent.com/74614080/133792317-c50d7445-8258-4476-8b32-555336f0b6c2.mp4)
 
+
+
+### Data Example
+Attached below is a csv file of about 5500 rows data. Each row of data contains the video frame and the data on the helmet mapping box at that time frame. It shows the bounding box of the left side, along with the width of the box, the top of the box, and the height of that box. It also gives the predicted label of the player that the helmet mapping box is assigned to, in this case, his jersey number. This is what the competition is judged on and provides a metric to determine if the helmet mapping is correct. In the case of this code, it is correct. 
+
+[Helmet Mapping Data](https://github.com/Nhildenbrand19/EC601_Project1/files/7186354/submission.csv)
 
