@@ -44,20 +44,12 @@ https://user-images.githubusercontent.com/74614080/133801835-4213a1dd-f89b-4d28-
 https://user-images.githubusercontent.com/74614080/133801859-285549a9-6321-4768-bdd5-41d4de569a7a.mp4
 
 ### After Application
-We can see even before the video is played, the helmet mapping being done on each player in the cameras view. We can see all the players in the green and yellow uniforms have an H and then a number above their heads, representing their jersey number. The H stands for home in this case, while the opposing team has a V for visitors above their helmets. As we play the video, we can see that video pauses for a second everytime an "exposure" is detected, and the associated players helmet box changes colors. This gives us not only a visual representation of overall exposures, but by having the video pause for a split second, it indicates to the viewer that an exposure has occured at this time period and to take notice. We can see how powerful this video can be for the different types of users listed above and will give meaningful information that can change lives forever.
-
-
-### Video Example
-
-[Video Example of DeepSort](https://user-images.githubusercontent.com/74614080/133792317-c50d7445-8258-4476-8b32-555336f0b6c2.mp4)
-
+The end goal in this case is to have the helmet mapping done on each player in the cameras view. We want to have all players in the green and yellow uniforms have an H and then a number above their heads, representing their jersey number. The H stands for home in this case, while the opposing team has a V for visitors above their helmets. The goal is to have the helmet box change colors when an "exposure is detected. This will give us not only a visual representation of overall exposures, but by having the video pause for a split second, it indicates to the viewer that an exposure has occured at this time period and to take notice. We can imagine how powerful this video can be for the different types of users listed above and will give meaningful information that can change lives forever.
 
 
 ### Data Example
-Attached below is a csv file of about 5500 rows data. Each row of data contains the video frame and the data on the helmet mapping box at that time frame. It shows the bounding box of the left side, along with the width of the box, the top of the box, and the height of that box. It also gives the predicted label of the player that the helmet mapping box is assigned to, in this case, his jersey number. This is what the competition is judged on and provides a metric to determine if the helmet mapping is correct. In the case of this code, it is correct. I have also attached a screenshot of the beginning of this file to give an idea of how this data is formatted.
+Attached below is a csv file of about 5500 rows data that was done in an open source. Each row of data contains the video frame and the data on the helmet mapping box at that time frame. It shows the bounding box of the left side, along with the width of the box, the top of the box, and the height of that box. It also gives the predicted label of the player that the helmet mapping box is assigned to, in this case, his jersey number. This is what the competition is judged on and provides a metric to determine if the helmet mapping is correct. In the case of this code, it is correct. I have also attached a screenshot of the beginning of this file to give an idea of how this data is formatted.
 
 ![Example of Data Format](https://user-images.githubusercontent.com/74614080/133804035-6f83eac3-ceac-41f0-938c-fbd94cfa4cad.png)
 
-
-[Helmet Mapping Data](https://github.com/Nhildenbrand19/EC601_Project1/files/7186354/submission.csv)
 
