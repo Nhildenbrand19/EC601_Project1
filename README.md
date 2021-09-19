@@ -48,7 +48,7 @@ The end goal in this case is to have the helmet mapping done on each player in t
 
 
 ### Data Example
-Attached below is a csv file of about 5500 rows data that was done in an open source. Each row of data contains the video frame and the data on the helmet mapping box at that time frame. It shows the bounding box of the left side, along with the width of the box, the top of the box, and the height of that box. It also gives the predicted label of the player that the helmet mapping box is assigned to, in this case, his jersey number. This is what the competition is judged on and provides a metric to determine if the helmet mapping is correct. In the case of this code, it is correct. I have also attached a screenshot of the beginning of this file to give an idea of how this data is formatted.
+Below is a screenshot of part of a csv file that contains 5500 rows data that was done in an open source. Each row of data contains the video frame and the data on the helmet mapping box at that time frame. It shows the bounding box of the left side, along with the width of the box, the top of the box, and the height of that box. It also gives the predicted label of the player that the helmet mapping box is assigned to, in this case, his jersey number. This is what the competition is judged on and provides a metric to determine if the helmet mapping is correct. In the case of this code, it is correct. The screenshot of the beginning of this file is to give an idea of how this data is formatted.
 
 ![Example of Data Format](https://user-images.githubusercontent.com/74614080/133804035-6f83eac3-ceac-41f0-938c-fbd94cfa4cad.png)
 
